@@ -11,6 +11,8 @@ Colin - 123456
 
 ## Files
 
+All files are in the root directory except images which are in a seperate folder.
+
 * <b>dbconx.php</b> -
 Contains connection to database.
 * <b>login.php</b> -
