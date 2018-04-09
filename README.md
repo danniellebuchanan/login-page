@@ -11,14 +11,16 @@ Colin - 123456
 
 ## Files
 
-All files are in the root directory except images which are in a seperate folder.
+All files are in the root directory except images, css and javascript files which are in a seperate folder.
 
+* <b>login-db_2018-04-09.sql</b> - 
+Includes SQL to create databse and tables included.
 * <b>dbconx.php</b> -
-Contains connection to database.
+Contains connection to database and SQL connection string which you might need to change for testing purposes.
 * <b>login.php</b> -
 Calls login_user.php. Contains Login Form with Username and Password Fields.
 * <b>login_user.php</b> -
-Validates username and password against database then logs them in.
+Validates username and password against database then logs them in.  
 * <b>register.php</b> -
 Calls register_user.php.  Contains Register form with username and password fields.
 * <b>register_user.php</b> -
